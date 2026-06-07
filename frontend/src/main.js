@@ -1,11 +1,14 @@
 import './style.css';
 import './app.css';
 
+import logo from './assets/images/logo-universal.png';
+
 import {Convert} from '../wailsjs/go/main/App';
 
 document.querySelector('#app').innerHTML = `
   <div class="converter-container">
     <div class="header">
+      <img src="${logo}" alt="logo" class="logo">
       <h1>Numerator</h1>
     </div>
     
